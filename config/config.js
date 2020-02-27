@@ -1,5 +1,5 @@
 export default {
-    base: '/my-webpage/dist/',
+    base: 'http://chenyiran.top/my-webpage/dist',
     publicPath: '/my-webpage/dist/',
     history: 'hash',
     singular: true,
