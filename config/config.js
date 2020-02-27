@@ -1,6 +1,6 @@
 export default {
-    base: '/my-webpage/',
-    publicPath: '/my-webpage/',
+    base: '/my-webpage/dist/',
+    publicPath: '/my-webpage/dist/',
     history: 'hash',
     singular: true,
     routes: [{
