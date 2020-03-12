@@ -1,4 +1,14 @@
 export default {
+    mini: [
+        {
+            name: 'today',
+            star: true,
+            displayName: '今日事 Today Todo',
+            image: require("../img/today.jpg"),
+            code: 'https://github.com/sumucheng/mini-test',
+            detail: '使用 JavaScript + 微信小程序开发框架 + WeUI 组件库 + 微信云开发支持 实现的待办管理小程序，1.0 版本已发布上线，功能包括新增待办、添加标签、待办归档等（目前仍在持续开发中）'
+        }
+    ],
     react: [
         {
             name: 'webpage',

@@ -33,20 +33,26 @@ export default () => {
     return (
         <Tabs defaultActiveKey="1" style={{ margin: "20px" }}>
             <TabPane
-                tab={<span>Vue</span>}
+                tab={<span>微信小程序</span>}
                 key="1"
+            >
+                <CardGird dataSource={projects.mini} />
+            </TabPane>
+            <TabPane
+                tab={<span>Vue</span>}
+                key="2"
             >
                 <CardGird dataSource={projects.vue} />
             </TabPane>
             <TabPane
                 tab={<span>React</span>}
-                key="2"
+                key="3"
             >
                 <CardGird dataSource={projects.react} />
             </TabPane>
             <TabPane
                 tab={<span>Vanilla JS</span>}
-                key="3"
+                key="4"
             >
                 <CardGird dataSource={projects.js} />
             </TabPane>
